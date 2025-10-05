@@ -28,10 +28,10 @@ It exists to maintain order, document architecture, and track integration status
 | Phase | Trigger | Description |
 |--------|----------|-------------|
 | **🟡 In Planning** | New idea or Node proposal | Captured as draft issue in The Hive Project |
-| **🟢 In Progress** | Node accepted for development | Converted to issue and assigned Edgerunner |
+| **🔵 In Progress** | Node accepted for development | Converted to issue and assigned Edgerunner |
 | **🟠 In Review** | PR submitted / Testing phase | Validation, QA, and integration readiness |
-| **🟣 Integrated** | Node connected to another | Linked via automation or dependency |
-| **⚫ Complete** | Node stable / fully operational | Marked done and logged in The Hive |
+| **🟣 Linked** | Node connected to another | Linked via automation or dependency |
+| **🟢 Complete** | Node stable / fully operational | Marked done and logged in The Hive |
 
 ---
 

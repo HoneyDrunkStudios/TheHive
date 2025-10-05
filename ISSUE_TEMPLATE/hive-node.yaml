@@ -87,10 +87,10 @@ body:
       label: 🚦 Initial Status
       options:
         - 🟡 In Planning
-        - 🟢 In Progress
+        - 🔵 In Progress
         - 🟠 In Review
-        - 🟣 Integrated
-        - ⚫ Complete
+        - 🟣 Linked
+        - 🟢 Complete
       default: 0
 
   - type: textarea

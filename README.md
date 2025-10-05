@@ -71,10 +71,10 @@ It serves as:
 | Status | Meaning |
 |--------|----------|
 | 🟡 In Planning | Concept / Draft |
-| 🟢 In Progress | Active development |
+| 🔵 In Progress | Active development |
 | 🟠 In Review | Testing / Validation |
-| 🟣 Integrated | Connected to Hive Grid |
-| ⚫ Complete | Stable and archived |
+| 🟣 Linked | Connected to Hive Grid |
+| 🟢 Complete | Stable and archived |
 
 ---
 
