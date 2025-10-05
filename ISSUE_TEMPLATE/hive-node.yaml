@@ -1,0 +1,110 @@
+﻿name: 🧩 Hive Node Registration
+description: Register a new Node (service, SDK, or tool) into The Hive Grid.
+title: "[Node] <name>"
+labels: ["node", "in-planning"]
+assignees: ["OlegNovoselskyy"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚡ HIVE NODE INITIALIZATION PROTOCOL
+
+        > **Transmission:** new signal detected  
+        > **Objective:** Register node into The Hive Grid  
+        > **Edgerunner:** Oleg  
+        > **Status:** Awaiting deployment approval  
+
+        ---
+        ⚠️ **All Nodes must align with The Hive Operations Manifest.**
+        Keep entries minimal, modular, and cyberpunk-clean.
+
+  - type: input
+    id: codename
+    attributes:
+      label: 🧠 Node Codename
+      description: The short name of this Node (e.g., Vault, Pulse, Tether)
+      placeholder: Enter codename...
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 🧩 Purpose & Function
+      description: Describe what this Node does and why it exists.
+      placeholder: e.g., Handles secret rotation, config sync, and secure key management.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: 🏗️ Hive Sector
+      description: Which Pillar of The Hive does this Node belong to?
+      options:
+        - Developer Infrastructure (HoneyCore)
+        - Business & Ops Tools (HoneyBusiness)
+        - Creator & Freelancer Tools (HoneyCreate)
+        - Lifestyle & Productivity (HoneyLife)
+        - Gaming & Entertainment (HoneyPlay)
+        - Ecosystem & Meta (HoneyMeta)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: visibility
+    attributes:
+      label: 🕶️ Visibility
+      description: Internal or public-facing Node?
+      options:
+        - Internal (private SDK, shared infra)
+        - External (public service, SaaS, or open-source)
+    validations:
+      required: true
+
+  - type: textarea
+    id: tech
+    attributes:
+      label: ⚙️ Core Stack
+      description: What tech stack or dependencies will power this Node?
+      placeholder: e.g., .NET 9, SQL Server, Redis, Mapster, Azure DevOps YAML
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration
+    attributes:
+      label: 🔗 Integration & Dependencies
+      description: Which other Nodes or Hive systems does this connect to?
+      placeholder: e.g., Auth, Pulse, Vault.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: 🚦 Initial Status
+      options:
+        - 🟡 In Planning
+        - 🟢 In Progress
+        - 🟠 In Review
+        - 🟣 Integrated
+        - ⚫ Complete
+      default: 0
+
+  - type: textarea
+    id: edgerunner-note
+    attributes:
+      label: 🧾 Edgerunner Note
+      description: Any directives, observations, or stylistic guidance for this Node.
+      placeholder: e.g., Integrate telemetry with Pulse and enforce Vault key sync.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        🛰️ **Signal Confirmation:**
+        Once approved, the Node becomes part of The Hive Grid.
+        Precision is art. Aesthetic is architecture.
+        **// Transmission End**
